@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: gold;
+}
+nav{
+    background-color:rgb(17, 17, 17);
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    list-style:none;
+    background-color: rgb(8, 8, 8) ;
+    display: inline-block;
+    
+    }
+    .menu li{
+        padding: 20px;
+        position:relative;
+        display:inline-block;
+        text-align: center;
+        }
+        
+.menu li a{color:rgb(201, 31, 1); text-decoration:none; padding:5px 10px; display:block;}
+.menu li:hover{
+    background-color: rgb(8, 8, 8);
+    }
+
+.menu li  ul{
+    
+    top: 68px;
+    left:0;
+    background-color:rgba(255, 255, 255, 0.795);
+    display:none;
+    }
+    .menu li:hover ul, .menu li.over ul{
+        display:block;
+    }
+    .menu li ul li{
+        display:block;
+        width:150px;
+        left: 0;
+        }
+.euu{
+    height: 35%;
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: -50px;
+    margin-left: 220px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1500px;
+    max-height: 1500px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    
+    padding: 0px, 0px, 0px, 0px;
+    
+    background: #080808;
+}
+
+.logorodape {
+    height: 8%;
+    width: 8%;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.rodapetexto {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 375px) {
+    
+   
+    .menu {
+        margin-left: -100px;
+    }
+    .homelogo {
+        height: 59%;
+        width: 59%;
+    }
+
+    .filmesmenu {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .jogosmenu {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .conteudohome {
+        background-size: 50%;
+        background-position-y: 0px;
+    }
+    .conteudo {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .batmanfoto {
+        height: 45%;
+        width: 45%;
+        margin-top: 0px;
+        margin-bottom: -50px;
+        margin-left: 210px;
+    }
+
+    .subtitulo {
+        font-size: 7px;
+        margin-left: 70px;
+        margin-top: -80px;
+      
+    }
+    
+    .titulo {
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top:-7px;
+    }
+}

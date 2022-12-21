@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman2</title>
+    <link rel="icon" href="img/homelogo.png">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="C:\Users\Admin\Downloads\Batman\index.html"><img src="homelogo.png" alt="home"> </a>
+                <ul>
+                    <li><a href="C:\Users\Admin\Downloads\Batman\os filmes landing page\index=film.html">FILMES</a></li>
+                    <li><a href="C:\Users\Admin\Downloads\Batman\jogos landing page\index.html">JOGOS</a></li>
+                    <li><a href="sobre mim/index.html">SOBRE MIM</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="conteudohome"> <!--a ideia inicial do conteudo foi botar uma imagem ja pronta, porem quero me desafiar e montar o site com as letras e as imagens -->
+        <style class="background"> /* background com simbolo do batbman */
+            body {
+            background-color: #0E0E0E;
+            background-repeat: no-repeat;
+            background-size: 85%;
+            background-position-x:100px;
+            min-width: 375px;
+            min-height: 667px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            
+        }
+            .conteudohome {
+                background-image: url(/home/backgroundhome.png);
+                background-size: 85%;
+                background-position-x:100px;
+                background-position-y: -79px;
+                background-repeat: no-repeat;
+            }
+
+            @media only screen and (max-width: 375px) {
+               
+               .body {
+                max-width: 375px;
+                max-height: 667px;
+               }
+
+                .conteudohome {
+                background-image: url(/home/backgroundhome.png);
+                background-size: 75%;
+                background-position-x:17px;
+                background-position-y: 50px;
+                background-repeat: no-repeat;
+            }
+            }
+        </style> <!--vou colocar uma img simples de background e depois botar o titulo e foto do batman -->
+        <section class="conteudo"> <!--abri um section para colocar os conteudos-->
+           <div class="divbatmanfoto">
+            <img src="img/batmanimg.png" class="batmanfoto">
+           </div>
+            <div class="subtitulodiv"> <!--div do subtitulo-->
+            <h4 class="subtitulo">
+                B⠀A⠀T⠀M⠀A⠀N⠀⠀É⠀⠀O⠀⠀C⠀A⠀V⠀A⠀L⠀E⠀I⠀R⠀O⠀⠀D⠀E 
+            </h4>
+            
+           </div>
+           <div class="titulodiv"> <!--titulo-->
+            <h1 class="titulo">
+                GOTHAM
+            </h1>
+            
+           </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img src="img/homelogo.png"  class="logorodape">
+        <h4  class="rodapetexto"><strong>site by Thalya </strong></h4>
+    </footer>
+</body>
+</html>
